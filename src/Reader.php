@@ -2,7 +2,7 @@
 
 namespace web6\config;
 
-class Config {
+class Reader {
 
     /**
      * Configuration storage
