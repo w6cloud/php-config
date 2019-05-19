@@ -1,6 +1,6 @@
 <?php
 
-namespace web6\config;
+namespace W6\Config;
 
 class Reader {
 

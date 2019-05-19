@@ -37,10 +37,10 @@ include_once('vendor/autoload.php');
 
 ### Read configuration
 
-To read configuration values, instanciate the `web6\config\Reader` class with the configuration file path. 
+To read configuration values, instanciate the `W6\Config\Reader` class with the configuration file path. 
 
 ```php
-var $config = new \web6\config\Reader( '/path/to/config.php' );
+var $config = new \W6\Config\Reader( '/path/to/config.php' );
 
 print_r($config->environment);
 print_r($config->debug);
