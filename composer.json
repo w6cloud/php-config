@@ -1,0 +1,18 @@
+{
+    "name": "web6/config",
+    "description": "Simple PHP configuration reader",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "WEB 6",
+            "email": "contact@13i.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { 
+            "web6\\config\\": "src/" 
+        }
+    }
+}
